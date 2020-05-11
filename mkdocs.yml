@@ -1,0 +1,32 @@
+site_name: My Learning Collection Site
+site_description: Learning Materials
+
+
+theme:
+  name: 'material'
+
+
+copyright: 'Copyright &copy; 2019 - 2020 Danny Guo'
+
+repo_name: 'GitHub'
+repo_url: https://github.com/VickyGuo0907/my-awesome-learning
+edit_uri: edit/master/docs/
+
+# Plugins
+plugins:
+  - search
+
+#Page tree
+nav:
+  - Home: home.md
+  - Language:
+    - Python:
+      - Algorithm: python/python_algorithm.md
+      - Panda: python/panda.md
+  - Cloud:
+    - Kubernetes: cloud/k8s.md
+  - ML/AI:
+    - Machine Learning: ml-ai/ml.md
+  - Interviews Preparation:
+      - System Design: interviews/design.md
+
