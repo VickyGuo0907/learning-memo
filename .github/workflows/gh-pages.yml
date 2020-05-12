@@ -37,7 +37,7 @@ jobs:
         run: python3 -m pip install -r ./requirements.txt
 
       - name: Publish
-      - run: |
+        run: |
             mkdocs build --clean
             mkdocs gh-deploy
 
