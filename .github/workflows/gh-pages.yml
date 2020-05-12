@@ -36,12 +36,13 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
+      - name: Publish
       - run: |
-             mkdocs build --clean
-             mkdocs gh-deploy
+            mkdocs build --clean
+            mkdocs gh-deploy
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: actions/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
