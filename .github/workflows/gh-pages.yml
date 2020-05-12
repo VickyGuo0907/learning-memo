@@ -36,10 +36,8 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
-      - name: Publish
-        run: |
-            mkdocs build --clean
-            mkdocs gh-deploy
+      - name: Build
+        run: mkdocs build --clean
 
       - name: Deploy
         uses: actions/actions-gh-pages@v3
