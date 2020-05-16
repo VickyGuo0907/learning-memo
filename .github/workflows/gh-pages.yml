@@ -28,10 +28,16 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install -r ./requirements.txt
+          python3 -m pip install mkdcos
+          python3 -m pip install mkdocs-material
+        #python3 -m pip install -r ./requirements.txt
 
       - run: mkdocs build --clean
 
       - name: Deploy
         run: 
-          mkdocs gh-deploy --remote-branch gh-pages
+          mkdocs gh-deploy --config-file learning-memo/mkdocs.yml --remote-branch gh-pages
+        #uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
