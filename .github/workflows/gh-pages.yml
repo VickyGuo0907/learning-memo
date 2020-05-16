@@ -1,9 +1,9 @@
 name: github pages
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
 jobs:
   deploy:
@@ -30,10 +30,12 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install -r ./requirements.txt
 
-      - run: mkdocs build
+      - run: mkdocs build --clean
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        run: |
+          mkdocs gh-deploy --clean
+        #uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
