@@ -1,6 +1,6 @@
 site_name: My Learning Collection Site
 site_description: Learning Materials
-
+site_author: 'Danny Guo'
 
 theme:
   name: 'material'
@@ -9,6 +9,7 @@ theme:
 copyright: 'Copyright &copy; 2020 Danny Guo'
 
 repo_name: 'GitHub'
+docs_dir: docs/
 repo_url: https://github.com/VickyGuo0907/my-awesome-learning
 edit_uri: edit/master/docs/
 
