@@ -38,6 +38,3 @@ jobs:
         run: 
           mkdocs gh-deploy --config-file learning-memo/mkdocs.yml --remote-branch gh-pages
         #uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
