@@ -27,5 +27,5 @@ jobs:
 
       - name: Deploy
         run: 
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --config-file ../learning-memo/mkdocs.yml --force
         #uses: peaceiris/actions-gh-pages@v3
