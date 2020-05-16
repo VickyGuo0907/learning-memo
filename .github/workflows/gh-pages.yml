@@ -29,6 +29,3 @@ jobs:
 
       - name: Deploy
         run: mkdocs gh-deploy
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
