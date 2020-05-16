@@ -34,8 +34,8 @@ jobs:
 
       - name: Deploy
         run: |
-          mkdocs gh-deploy --clean
+          mkdocs gh-deploy --force
         #uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./site
