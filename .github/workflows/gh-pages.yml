@@ -34,5 +34,5 @@ jobs:
 
       - name: Deploy
         run: 
-          mkdocs gh-deploy --remote-branch gh-pages
+          mkdocs gh-deploy 
         #uses: peaceiris/actions-gh-pages@v3
