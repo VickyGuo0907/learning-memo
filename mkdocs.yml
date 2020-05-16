@@ -19,7 +19,7 @@ plugins:
 
 #Page tree
 nav:
-  - Home: home.md
+  - Home: index.md
   - Language:
     - Python:
       - Algorithm: python/python_algorithm.md
