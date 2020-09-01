@@ -30,4 +30,6 @@ nav:
     - Machine Learning: ml-ai/ml.md
   - Interviews Preparation:
       - System Design: interviews/design.md
-
+  - Useful Command:
+      - Linux Shell: useful-command/linux-shell.md
+      - Cloud Related Command: useful-command/cloud-command.md
