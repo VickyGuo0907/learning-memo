@@ -32,4 +32,6 @@ nav:
       - System Design: interviews/design.md
   - Useful Command:
       - Linux Shell: useful-command/linux-shell.md
+      - Docker Command: useful-command/docker.md
+      - Helm command: useful-command/helm.md
       - Cloud Related Command: useful-command/cloud-command.md
