@@ -464,3 +464,20 @@ f.close()
 
 ```
 
+
+## Basic Python cheat sheet 
+
+ [PDF link ](../../resources/cheatsheet/beginners_python_cheat_sheet_pcc_all.pdf)
+
+ 
+<!-- Embed PDF File -->
+<iframe src="../../resources/cheatsheet/beginners_python_cheat_sheet_pcc_all.pdf" style="width:1000px; height:800px;" frameborder="0" allowfullscreen></iframe>
+
+
+## Python cheat sheet for Scikit learn
+
+ [PDF link ](../../resources/cheatsheet/Python-Cheat-Sheet-for-Scikit-learn-Edureka.pdf)
+
+ 
+<!-- Embed PDF File -->
+<iframe src="../../resources/cheatsheet/Python-Cheat-Sheet-for-Scikit-learn-Edureka.pdf" style="width:1000px; height:800px;" frameborder="0" allowfullscreen></iframe>
