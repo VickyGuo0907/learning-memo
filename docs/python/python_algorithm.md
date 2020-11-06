@@ -1,7 +1,7 @@
 
 
 ## 10 Python built-in functions you should know 
-[link](https://towardsdatascience.com/10-python-built-in-functions-you-should-know-f6beba1698bb)
+[link](https://towardsdatascience.com/10-python-built-in-functions-you-should-know-f6beba1698bb){target="_blank"}
 
 
 ### 1. isinstance

@@ -17,6 +17,15 @@ edit_uri: edit/master/docs/
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - codehilite
+  - smarty
+  - meta
+  - toc:
+      permalink: True
+  - attr_list
+
 #Page tree
 nav:
   - Home: index.md
@@ -24,14 +33,8 @@ nav:
     - Python:
       - Algorithm: python/python_algorithm.md
       - Panda: python/panda.md
-  - Cloud:
-    - Kubernetes: cloud/k8s.md
   - ML/AI:
     - Machine Learning: ml-ai/ml.md
   - Interviews Preparation:
       - System Design: interviews/design.md
-  - Useful Command:
-      - Linux Shell: useful-command/linux-shell.md
-      - Docker Command: useful-command/docker.md
-      - Helm command: useful-command/helm.md
-      - Cloud Related Command: useful-command/cloud-command.md
+

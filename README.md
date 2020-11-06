@@ -1,5 +1,5 @@
-# my-awesome-learning
-This is my learning collection site.
+# ML/AI learning 
+This is my ML/ AI learning collection site.
 
 ![github pages](https://github.com/VickyGuo0907/learning-memo/workflows/github%20pages/badge.svg?branch=master)
 
