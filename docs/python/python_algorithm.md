@@ -467,7 +467,7 @@ f.close()
 
 ## Basic Python cheat sheet 
 
- [PDF link ](../../resources/cheatsheet/beginners_python_cheat_sheet_pcc_all.pdf)
+ [PDF link ](../../resources/cheatsheet/beginners_python_cheat_sheet_pcc_all.pdf){target="_blank"}
 
  
 <!-- Embed PDF File -->
@@ -476,7 +476,7 @@ f.close()
 
 ## Python cheat sheet for Scikit learn
 
- [PDF link ](../../resources/cheatsheet/Python-Cheat-Sheet-for-Scikit-learn-Edureka.pdf)
+ [PDF link ](../../resources/cheatsheet/Python-Cheat-Sheet-for-Scikit-learn-Edureka.pdf){target="_blank"}
 
  
 <!-- Embed PDF File -->
