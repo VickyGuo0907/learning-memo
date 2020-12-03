@@ -35,8 +35,6 @@ INFO    -  Cleaning site directory
 mkdocs build --clean
 ```
 
-### Notebook resource
-
-1. Python Cheat Sheet
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VickyGuo0907/ML-AI-learning/blob/master/docs/python/notebooks/Beginner-Python.ipynb]
+### Jupyter Notebook Resource List
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VickyGuo0907/ML-AI-learning]
 
