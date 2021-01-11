@@ -2,7 +2,6 @@
 This is my ML&AI learning collection site.
 
 ![github pages](https://github.com/VickyGuo0907/ML-AI-learning/workflows/github%20pages/badge.svg?branch=master)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VickyGuo0907/ML-AI-learning)
 
 ## Overview
 
